@@ -32,7 +32,6 @@ System.setProperty("webdriver.chrome.driver", "C:\\Users\\Administrator\\Sele an
 		//getAttribute---WebElementMethod
 		System.out.println(fName.getAttribute("placeholder"));
 		
-		
 //Using Keyboard Action---->By Actions Class 
 		
 		Actions act=new Actions(driver);
@@ -112,9 +111,6 @@ System.setProperty("webdriver.chrome.driver", "C:\\Users\\Administrator\\Sele an
 			
 			
 			
-			
-			
-		
 			
 		
 		
