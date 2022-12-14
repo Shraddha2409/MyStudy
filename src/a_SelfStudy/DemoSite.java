@@ -105,8 +105,6 @@ System.setProperty("webdriver.chrome.driver", "C:\\Users\\Administrator\\Sele an
 			Select sel=new Select(skills);
 			
 			
-			
-			
 			sel.selectByVisibleText("Software");
 			
 //===========================================================================
