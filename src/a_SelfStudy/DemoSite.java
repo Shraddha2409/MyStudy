@@ -45,8 +45,7 @@ System.setProperty("webdriver.chrome.driver", "C:\\Users\\Administrator\\Sele an
 		
 		keyUp(Keys.SHIFT).
 		build().perform();
-		
-		
+		 		
 //===========================================================================		
 		
 //isSelected ---> For RadioButton, Checkbox		
@@ -97,8 +96,7 @@ System.setProperty("webdriver.chrome.driver", "C:\\Users\\Administrator\\Sele an
 			while(it.hasNext()) {
 				
 				System.out.println(it.next().getText());
-				
-			}
+						}
 		
 //===========================================================================	
 		
@@ -109,6 +107,12 @@ System.setProperty("webdriver.chrome.driver", "C:\\Users\\Administrator\\Sele an
 			sel.selectByVisibleText("Software");
 			
 //===========================================================================
+			
+			
+			
+			
+			
+			
 			
 		
 			

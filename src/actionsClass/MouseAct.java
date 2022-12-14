@@ -48,6 +48,11 @@ System.setProperty("webdriver.chrome.driver", "C:\\Users\\Administrator\\Sele an
 		
 		act.click(clickM).perform();
 		
+		
+		
+		
+		
+		
 		Thread.sleep(4000);
 		WebElement moveTo = driver.findElement(By.xpath("//span[text()='Text Box']"));
 		jS.executeScript("arguments[0].scrollIntoView(true)", moveTo);

@@ -26,10 +26,9 @@ System.setProperty("webdriver.chrome.driver", "C:\\Users\\Administrator\\Sele an
 		
 		WebElement drop1 = driver.findElement(By.xpath("//div[@id='box101']"));
 		
-		
 		act.dragAndDrop(drag1, drop1).perform();
 		Thread.sleep(1000);
-
+		
 		
 		 WebElement drag2 = driver.findElement(By.xpath("//div[@id='box6']"));
 		
